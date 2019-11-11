@@ -27,7 +27,8 @@ h1 {
     font-weight: 600;
     border-radius: 0;
     min-height: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Yeon Sung', cursive;
+
 }
 
 .fire {
@@ -38,6 +39,7 @@ h1 {
     width: 400px;
     border: none;
     border-radius: 20%;
+    font-family: 
 
 }
 
@@ -51,12 +53,16 @@ h1 {
     color: magenta;
     font-weight: 600;
     border-radius: 0;
+    font-family: 'Wallpoet', cursive;
+
 }
 
 .moving {
     background : url(face.gif);
     color: red;
     font-size: 2em;
-    font-weight: 500;
+    font-weight: 800;
     height: 180px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+    font-family: 'Liu Jian Mao Cao', cursive;
+
+}
