@@ -1,0 +1,62 @@
+body{
+    background: url("space.jpg");
+    height: 2000px;
+}
+
+
+h1 {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#butt {
+    position: absolute;
+    left: 400px;
+    top: 300px;
+    transition-duration: 0.5s;
+    padding: 25px;
+
+}
+
+.clowns {
+    background: url(clowns.jpeg);
+    background-size: contain;
+    color: pink;
+    font-size: 1.5em;
+    text-shadow: 5px 4px 1px black;
+    font-weight: 600;
+    border-radius: 0;
+    min-height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.fire {
+    background: url(fire.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+    width: 400px;
+    border: none;
+    border-radius: 20%;
+
+}
+
+.pink {
+    background-color: pink;
+    height: 400px;
+    width: 500px;
+    left: 100px;
+    top: 25px;
+    border: 15px dashed orange;
+    color: magenta;
+    font-weight: 600;
+    border-radius: 0;
+}
+
+.moving {
+    background : url(face.gif);
+    color: red;
+    font-size: 2em;
+    font-weight: 500;
+    height: 180px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
