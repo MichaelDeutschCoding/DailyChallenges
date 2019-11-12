@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>Challenge: Mad Libs</title>
+  <script defer src="main.js"></script>
+  <style>
+    body{
+      margin-left: 10px;
+    }
+    label{
+      display: inline-block;
+      float: left;
+      clear: left;
+      width: 120px;
+      text-align: right;
+    }
+    input {
+      display: inline-block;
+      margin-left: 20px;
+      margin-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding-inline-start: 10px;
+    }
+  </style>
+ </head>
+ <body>
+
+    <h1>Mad Libs</h1>
+
+    <ul>
+      <li><label>Last Name:</label><input type="text" value="Gray"></li>
+      <li><label>Location:</label><input type="text" value="zoo"></li>
+      <li><label>Time of Day:</label><input type="text" value="twilight"></li>
+      <li><label>Adjective:</label><input type="text" value="bright"></li>
+      <li><label>Verb:</label><input type="text" value="bring"></li>
+      <li><label>Body Part:</label> <input type="text" value="meniscus"></li>
+      <li><label>Number:</label> <input type="text" value="1335"></li>
+      <li><label>Type of Furniture:</label><input type="text" value="couch"></li>
+      <li><label>Verb:</label> <input type="text" value="swim"></li>
+      <li><label>Noun: </label><input type="text" value="sink"></li>
+      <li><label>Noun: </label><input type="text" value="balloon"></li>
+      <li><label>Animal: </label><input type="text" value="rhino"></li>
+      <li><label>Adverb: </label><input type="text" value="speedily"></li>
+      <li><label>Name: </label><input type="text" value="John"></li>
+      <li><label>Type of Drink: </label><input type="text" value="Drambuie"></li>
+
+    </ul>
+
+    <button id="lib-button">Lib it!</button>
+    <h4>Generated story:</h4>
+    <p style="max-width: 450px; line-height: 1.2em;">
+    <span id="story"></span>
+    </p>
+
+
+ </body>
+</html>
