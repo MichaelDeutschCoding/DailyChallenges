@@ -15,6 +15,12 @@ Best ${words[12].value},<br>
 
 libButton.addEventListener('click', libIt);
 
+function clearAll () {
+    let words = document.getElementsByTagName("input");
+    for (box of words) {
+        box.value = ""
+    }
+}
 
 /*
 Name
