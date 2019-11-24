@@ -7,7 +7,6 @@ def unique_subsets(array):
 
 print(unique_subsets([4,5,6]))
 
-input_array =  [-25, -10, -7, -3, 2, 4, 8, 10]
 def sum_to_zero(array):
     results = []
     for i in range(len(array)):
@@ -18,4 +17,5 @@ def sum_to_zero(array):
                     results.append([array[i], array[j], array[k]])
     return results
 
+input_array =  [-25, -10, -7, -3, 2, 4, 8, 10]
 print(sum_to_zero(input_array))
